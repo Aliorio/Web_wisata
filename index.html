@@ -4,7 +4,7 @@
         <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
         <title>Wisata</title>
     </head>
-    <body class="bg-neutral-200">
+    <body class="bg-neutral-200 overflow-x-hidden">
         <header class="sticky top-0 z-50 bg-sky-950 text-white text-left p-5 shadow-md">
             <div class="flex justify-between items-center">
                 <h1 class="text-lg sm:text-xl md:text-2xl font-medium">Jelajah Bandung</h1>
@@ -175,7 +175,13 @@
 
                 <div>
                     <div class="aspect-video rounded-lg overflow-hidden">
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2841.6741477113205!2d107.62891292454678!3d-6.913415378405076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7938549e73f%3A0x71976866ae8eb5ff!2sDinas%20Kebudayaan%20dan%20Pariwisata%20Kota%20Bandung!5e1!3m2!1sid!2sid!4v1772677987314!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        <iframe 
+                        class="w-full h-full"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2841.6741477113205!2d107.62891292454678!3d-6.913415378405076!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e68e7938549e73f%3A0x71976866ae8eb5ff!2sDinas%20Kebudayaan%20dan%20Pariwisata%20Kota%20Bandung!5e1!3m2!1sid!2sid!4v1772677987314!5m2!1sid!2sid"
+                        style="border:0;"
+                        loading="lazy"
+                        allowfullscreen>
+                        </iframe>
                     </div>
                     
                     <div class="mt-3 flex flex-wrap justify-center md:justify-evenly gap-3">
